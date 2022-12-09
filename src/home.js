@@ -71,6 +71,7 @@ export function Home({ navigation }) {
   const getAtualMes = () => {
     const dataAtual = new Date();
     setMesAtual(dataAtual.getMonth() + 1);
+    setMes(data.filter((item) => item.mes === dataAtual.getMonth() + 1));
   };
 
   useEffect(() => {

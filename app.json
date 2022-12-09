@@ -19,7 +19,7 @@
     },
     "android": {
       "package": "com.carinhanha.sunset",
-      "versionCode": 2,
+      "versionCode": 4,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
